@@ -1,2 +1,32 @@
-.venv
+# Python virtual environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+
+# Environment and secrets
 .env
+.env.*
+!.env.example
+
+# Local app data
+.chat_history.json
+.faiss/
+*.db
+
+# OS/editor artifacts
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.log
+
+# Python packaging
+*.egg-info/
+.dist/
+build/
+dist/
+
+# Notebook checkpoints
+.ipynb_checkpoints/
